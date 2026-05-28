@@ -93,13 +93,15 @@ export function Hero() {
               "
             </span>
             <p className="font-body font-light leading-relaxed text-sm lg:text-base" style={{ color: 'hsl(40,20%,82%)' }}>
-              Com os{' '}
-              <span className="font-semibold text-white">protocolos ancestrais NATIVA</span>
-              , toda mulher na menopausa{' '}
-              <span className="font-semibold text-white">silencia o desconforto das ondas de calor</span>
+              Com o{' '}
+              <span className="font-semibold text-white">aplicativo NATIVA</span>
+              , toda mulher na menopausa acessa{' '}
+              <span className="font-semibold text-white">protocolos ancestrais</span>{' '}
+              para{' '}
+              <span className="font-semibold text-white">silenciar as ondas de calor</span>
               ,{' '}
-              <span className="font-semibold text-white">elimina a névoa mental</span>{' '}
-              e recupera o{' '}
+              <span className="font-semibold text-white">eliminar a névoa mental</span>{' '}
+              e recuperar o{' '}
               <span className="font-semibold text-white">sono</span>, a{' '}
               <span className="font-semibold text-white">libido</span>{' '}
               e o{' '}
