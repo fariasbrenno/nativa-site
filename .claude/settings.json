@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(C:/Users/Brenno/Downloads)",
+      "Read(C:/Users/Brenno/Desktop)",
+      "Read(C:/Users/Brenno/AppData)",
+      "Edit(C:/Users/Brenno/Downloads)",
+      "Write(C:/Users/Brenno/Downloads)",
+      "Write(C:/Users/Brenno/Desktop)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Read|Edit|Write|Glob|Grep",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 C:/Users/Brenno/Documents/NATIVA/nativa-site/.claude/path_guard.py",
+            "timeout": 10,
+            "statusMessage": "Verificando permissao de acesso..."
+          }
+        ]
+      }
+    ]
+  }
+}
